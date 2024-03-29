@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aaf32f8-f5db-422b-a953-98e1ff650b12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/service/StudentService.java" afterDir="false" />
+    <list default="true" id="9aaf32f8-f5db-422b-a953-98e1ff650b12" name="Changes" comment="CRUD basics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/studentList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Servlet" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -74,7 +76,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.19">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.jpademo_sd18312.App" />
       <module name="JpaDemo_SD18312" />
@@ -195,11 +197,26 @@
       <option name="presentableId" value="Default" />
       <updated>1711360236971</updated>
       <workItem from="1711360237971" duration="4681000" />
-      <workItem from="1711531174680" duration="5704000" />
+      <workItem from="1711531174680" duration="6478000" />
+      <workItem from="1711600163950" duration="14000" />
+      <workItem from="1711705358064" duration="2038000" />
     </task>
+    <task id="LOCAL-00001" summary="CRUD basics">
+      <option name="closed" value="true" />
+      <created>1711536977552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711536977552</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="CRUD basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD basics" />
   </component>
 </project>
