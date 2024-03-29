@@ -22,11 +22,16 @@
             <td>${tempStudent.lastName}</td>
             <td>${tempStudent.email}</td>
             <td>
-                <form method="post">
-                    <a href="">Update</a>
-                    |
-                    <a href="">Delete</a>
+                <input type="hidden" name="studentId" value="${tempStudent.id}">
+                <input type="hidden" name="command" value="LOAD">
+                <button type="submit">Update</button>
                 </form>
+                <form method="post" style="display: inline;">
+                    <input type="hidden" name="studentId" value="${tempStudent.id}">
+                    <input type="hidden" name="command" value="DELETE">
+                    <button type="submit" onclick="if (!(confirm('Are you sure?'))) return false">Delete</button>
+                </form>
+
             </td>
         </tr>
     </c:forEach>

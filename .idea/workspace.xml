@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aaf32f8-f5db-422b-a953-98e1ff650b12" name="Changes" comment="set up list students">
+    <list default="true" id="9aaf32f8-f5db-422b-a953-98e1ff650b12" name="Changes" comment="show table of students">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/util/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/entity/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/views/studentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/studentList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +196,7 @@
       <workItem from="1711360237971" duration="4681000" />
       <workItem from="1711531174680" duration="6478000" />
       <workItem from="1711600163950" duration="14000" />
-      <workItem from="1711705358064" duration="3753000" />
+      <workItem from="1711705358064" duration="4742000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD basics">
       <option name="closed" value="true" />
@@ -215,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711707459447</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="show table of students">
+      <option name="closed" value="true" />
+      <created>1711709342821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711709342821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CRUD basics" />
     <MESSAGE value="set up list students" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up list students" />
+    <MESSAGE value="show table of students" />
+    <option name="LAST_COMMIT_MESSAGE" value="show table of students" />
   </component>
 </project>
