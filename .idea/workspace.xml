@@ -9,13 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aaf32f8-f5db-422b-a953-98e1ff650b12" name="Changes" comment="add button Update, Delete">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/addStudentForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/updateStudentForm.jsp" afterDir="false" />
+    <list default="true" id="9aaf32f8-f5db-422b-a953-98e1ff650b12" name="Changes" comment="add button add; add student; show update form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/controller/StudentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/controller/StudentServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jpademo_sd18312/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/studentList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/studentList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,6 +197,7 @@
       <workItem from="1711600163950" duration="14000" />
       <workItem from="1711705358064" duration="5576000" />
       <workItem from="1711961731308" duration="9859000" />
+      <workItem from="1712132371053" duration="3443000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD basics">
       <option name="closed" value="true" />

@@ -79,9 +79,19 @@ public class StudentServlet extends HttpServlet {
         response.sendRedirect("/Students");
     }
 
-    private void deleteStudent(HttpServletRequest request, HttpServletResponse response) {
+    private void deleteStudent(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
+        if (request.getParameter("studentId") != null) {
+
+            String studentId = request.getParameter("studentId");
+
+            service.deleteStudent(studentId);
+        }
+
+        response.sendRedirect("/Students");
     }
+
+
 
     private void loadStudent(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String studentId = request.getParameter("studentId");
@@ -91,9 +101,23 @@ public class StudentServlet extends HttpServlet {
 
     }
 
-    private void updateStudent(HttpServletRequest request, HttpServletResponse response) {
+    private void updateStudent(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        // read data from form
+        if (request.getParameter("studentId") != null) {
+            int id = Integer.parseInt(request.getParameter("studentId"));
+            String firstName = request.getParameter("firstName");
+            String lastName = request.getParameter("lastName");
+            String email = request.getParameter("email");
 
+            Student student = new Student(id, firstName, lastName, email);
+
+            service.updateStudent(student);
+        }
+
+        response.sendRedirect("/Students");
     }
+
+
 
     private void listStudents(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Student> students = service.getAllStudents();
@@ -102,5 +126,4 @@ public class StudentServlet extends HttpServlet {
         request.setAttribute("students", students);
         getServletContext().getRequestDispatcher("/views/studentList.jsp").forward(request, response);
     }
-
 }
